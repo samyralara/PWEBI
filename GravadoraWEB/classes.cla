@@ -1,0 +1,29 @@
+<?php
+
+	class CD{
+		private $codigo;
+		private $titulo;
+		private $data_lancamento;
+		private $cantor;
+
+		function __construct($codigo, $titulo, $data_lancamento, $cantor){
+			$this->codigo = $codigo;
+			$this->titulo = $titulo;
+			$this->data_lanacamento = $data_lanacamento;
+			$this->cantor = $cantor;
+		}
+
+	}
+
+
+	class Cantor{
+		private $codigo;
+		private $nome;
+
+		function __construct($codigo, $nome){
+			$this->codigo = $codigo;
+			$this->nome = $nome;
+		}
+	}
+
+?>

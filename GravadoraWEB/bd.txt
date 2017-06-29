@@ -1,0 +1,4 @@
+host:localhost
+banco:gravadora
+login:root
+senha:
